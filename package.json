@@ -1,0 +1,36 @@
+{
+  "name": "gcy-cli",
+  "version": "1.0.2",
+  "description": "simple vue cli",
+  "bin": {
+    "gcy": "./bin/cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name":"gaochengyao",
+    "email": "756893799@qq.com"
+  },
+  "keywords": [
+    "gcy-cli",
+    "gcy",
+    "脚手架"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  }
+}
